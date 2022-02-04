@@ -48,7 +48,8 @@ public class Class {
     void getInfoOfClass() {
         System.out.println("Nomer: "+getNomer());
         System.out.println("Soz: "+getSoz());
-
+        System.out.print("Massiv: ");
+        
         for (int i: getMassiv())
             System.out.print(i+" ");
     }
